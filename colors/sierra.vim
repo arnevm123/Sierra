@@ -131,10 +131,10 @@ highlight! link String Red_Light
 
 highlight! Red_Dark_Reverse guifg=#af5f5f guibg=NONE gui=reverse ctermfg=131 ctermbg=NONE cterm=reverse
 highlight! link DiffDelete Red_medium
-highlight! link diffChanged Red_medium
-highlight! link diffFile Red_medium
-highlight! link diffIndexLine Red_medium
-highlight! link diffRemoved Red_medium
+highlight! link diffChanged Red_Dark_Reverse
+highlight! link diffFile Red_Dark_Reverse
+highlight! link diffIndexLine Red_Dark_Reverse
+highlight! link diffRemoved Red_Dark_Reverse
 
 "PURPLE:
 highlight! Purple guifg=#af8787 guibg=NONE gui=NONE ctermfg=138 ctermbg=NONE cterm=NONE
